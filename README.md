@@ -38,6 +38,7 @@ The provided PowerShell script (`Optimize_SoT.ps1`) handles all file operations 
 4.  Follow the interactive menu:
     * **Option 1 (Auto-Detect):** Recommended. Cleans all caches and deploys optimized configs.
     * **Option 2 (Custom Steam Path):** Use this if your Steam library is on a custom drive.
+5.  See in-game settings & Nvidia Profile Inspector tweaks below
 
 > **Note:** The script automatically backs up your existing configuration files (`.bak`) before applying changes.
 
@@ -212,6 +213,51 @@ Right-click *Sea of Thieves* > **Properties** > **General** > Paste into **Launc
 
 **Battle.net:**
 Click the **Gear Icon** next to Play > **Game Settings** > Check **Additional command line arguments** > Paste the arguments.
+
+## 🎮 In-Game Settings
+
+Recommended settings for competitive visibility and consistency.
+
+### Gameplay
+* **Disable Camera Sway on Ziplines:** On
+* **Server Authoritative Hit Markers:** On
+* **Disable Rats:** On
+
+### Input (Sensitivity)
+* **Blunderbuss Aim:** 7.5
+* **Flintlock Aim:** 7.5
+* **Eye of Reach Aim:** 10.0
+* **Double Barrel Aim:** 7.5
+* **Throwing Knife Aim:** 7.5
+* **Blowpipe Aim:** 7.5
+* **Grapple Gun Aim:** 10.0
+* **Trident Aim:** 8.0
+* **Hunting Spear Aim:** 8.0
+
+### Video
+* **VSync:** Off
+* **Frame Rate Lock:** Off
+* **Buffering:** Double
+* **Brightness:** 60
+
+### Graphics
+* **Field of View (FOV):** 110 (or highest possible)
+* **Shadow Detail:** Cursed
+* **Model Detail:** Rare
+* **Texture Detail:** Rare
+* **Water Detail:** Cursed
+* **Lighting Detail:** Cursed
+* **Particle Effects Quality:** Cursed
+* **Particle Resolution:** Cursed
+* **Animation Quality:** Cursed
+* **Unique Mesh Buffer:** Mythical
+* **Disable Blur:** On
+* **Disable Screen Shake:** On
+
+### Accessibility (Color)
+* **Color Blind Mode Filter:** Red-Green
+* **Strength:** 1.0
+* **Saturation:** 1.0
 
 ## 🟢 Nvidia Profile Inspector Tweaks
 For advanced driver-level optimization, use [Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases).
