@@ -85,6 +85,10 @@ Paths=../../../Engine/Plugins/2D/Paper2D/Content
 Paths=../../../Engine/Plugins/Rare/RareShaderTest/Content
 Paths=../../../Engine/Plugins/Runtime/Coherent/CoherentUIGTPlugin/Content
 
+; --- ANTI-ALIASING ---
+r.DefaultFeature.AntiAliasing=0
+r.PostProcessAAQuality=0
+
 ; --- PERFORMANCE & MEMORY ---
 r.Streaming.PoolSize=4096
 r.Streaming.LimitPoolSizeToVRAM=1
