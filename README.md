@@ -24,6 +24,11 @@ This suite clears **System-wide** shader caches (DirectX, NVIDIA, AMD).
 ## 🚀 Overview
 This suite is designed to eliminate stuttering, reduce input latency, and improve overall FPS stability in *Sea of Thieves*. It targets the common causes of performance degradation: bloated shader caches, unoptimized engine configuration (Unreal Engine 4), and sub-optimal driver handling.
 
+1.  **Core Remediation:** Clean caches and deploy optimized config files (choose **Method 1: Automated** OR **Method 2: Manual**).
+2.  **Launch Options:** Add command line arguments to your launcher (Steam/Xbox/Battle.net).
+3.  **Driver Enforcement:** Apply specific Nvidia Profile Inspector tweaks (Nvidia users only).
+4.  **In-Game Settings:** Configure specific visibility and sensitivity settings inside the game menu.
+
 **Supported Platforms:** Steam & Windows Store (Xbox App/Game Pass) & Battle.net (Manual Method only)
 
 ---
@@ -38,7 +43,8 @@ The provided PowerShell script (`Optimize_SoT.ps1`) handles all file operations 
 4.  Follow the interactive menu:
     * **Option 1 (Auto-Detect):** Recommended. Cleans all caches and deploys optimized configs.
     * **Option 2 (Custom Steam Path):** Use this if your Steam library is on a custom drive.
-5.  See in-game settings & Nvidia Profile Inspector tweaks below
+5.  Add Launch Options, See below
+6.  Nvidia Profile Inspector tweaks & in-game settings, See below
 
 > **Note:** The script automatically backs up your existing configuration files (`.bak`) before applying changes.
 
