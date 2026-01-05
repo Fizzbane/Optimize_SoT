@@ -98,6 +98,16 @@ r.XGEShaderCompile=1
 s.ForceGCAfterLevelStreamedOut=0
 s.ContinuouslyIncrementalGCWhileLevelsPendingPurge=0
 
+; --- NETWORK OPTIMIZATION ---
+ConfiguredInternetSpeed=100000
+ConfiguredLanSpeed=100000
+NetServerMaxTickRate=120
+LanMaxClientRate=100000
+InternetMaxClientRate=100000
+TotalNetBandwidth=100000
+MaxDynamicBandwidth=100000
+MinDynamicBandwidth=20000
+
 ; --- INPUT LATENCY ---
 r.OneFrameThreadLag=0
 r.FinishCurrentFrame=0
