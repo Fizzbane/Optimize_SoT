@@ -29,10 +29,10 @@ This suite is designed to eliminate stuttering, reduce input latency, and improv
 ---
 
 ## 📥 Method 1: Automated Optimization (Recommended)
-The provided PowerShell script (`sotoptimize.ps1`) handles all file operations safely and automatically.
+The provided PowerShell script (`Optimize_SoT.ps1`) handles all file operations safely and automatically.
 
 ### Usage
-1.  Download the `sotoptimize.ps1` script to your PC.
+1.  Download the `Optimize_SoT.ps1` script to your PC.
 2.  Right-click the file and select **Run with PowerShell**.
 3.  **Administrator privileges** are required to clear system-level shader caches. Accept the elevation prompt.
 4.  Follow the interactive menu:
