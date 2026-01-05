@@ -89,7 +89,7 @@ Paths=../../../Engine/Plugins/Runtime/Coherent/CoherentUIGTPlugin/Content
 r.DefaultFeature.AntiAliasing=0
 r.PostProcessAAQuality=0
 
-; --- PERFORMANCE & MEMORY ---
+; --- PERFORMANCE & MEMORY MANAGEMENT ---
 r.Streaming.PoolSize=4096
 r.Streaming.LimitPoolSizeToVRAM=1
 r.TextureStreaming=1
@@ -97,6 +97,11 @@ r.CreateShadersOnLoad=1
 r.XGEShaderCompile=1
 s.ForceGCAfterLevelStreamedOut=0
 s.ContinuouslyIncrementalGCWhileLevelsPendingPurge=0
+
+; --- INPUT LATENCY OPTIMIZATION ---
+r.OneFrameThreadLag=0
+r.FinishCurrentFrame=0
+m.MouseSmoothing=0
 
 ; --- NETWORK OPTIMIZATION ---
 ConfiguredInternetSpeed=100000
@@ -108,14 +113,7 @@ TotalNetBandwidth=100000
 MaxDynamicBandwidth=100000
 MinDynamicBandwidth=20000
 
-; --- INPUT LATENCY ---
-r.OneFrameThreadLag=0
-r.FinishCurrentFrame=0
-m.MouseSmoothing=0
-
 ; --- VISUAL CLARITY ---
-r.DefaultFeature.AntiAliasing=0
-r.PostProcessAAQuality=0
 r.LightShaftQuality=0
 r.LightShafts=0
 r.LensFlareQuality=0
@@ -136,6 +134,8 @@ r.SceneColorFringe.Max=0
 r.StaticMeshLODDistanceScale=0.7
 foliage.LODDistanceScale=0.8
 r.Tonemapper.Sharpen=1.3
+r.EyeAdaptationQuality=0
+r.DefaultFeature.AutoExposure=0
 r.ShadowQuality=0
 r.Shadow.DistanceScale=0
 r.ContactShadows=0
@@ -168,13 +168,31 @@ ResolutionScaling=100.000000
 ParticleEmitterQuality=0
 ParticleResolutionQuality=0
 BackBufferCount=2
+ShowPerformanceCounters=3
 SmoothFPS=False
 HDR=False
+AudioOutputSpatialAudio=False
 Fullscreen=True
 bUseVSync=False
+ResolutionSizeX=0
+ResolutionSizeY=0
+LastUserConfirmedResolutionSizeX=0
+LastUserConfirmedResolutionSizeY=0
+WindowPosX=-1
+WindowPosY=-1
+bUseDesktopResolutionForFullscreen=False
+FullscreenMode=2
+LastConfirmedFullscreenMode=2
+Version=5
+AudioQualityLevel=0
+D3DVersionForced=0
 D3DVersion=12
 ParallelRendering=True
 GpuCrashDetection=False
+ShowPerformanceCounters_Console=0
+GameLanguage=1
+AudioOutputFormat=2
+ImmerseHeadsetId=0
 ```
 ## ⚡ Launch Options (Required)
 Add these arguments to force DirectX 12 and optimize memory allocation.
