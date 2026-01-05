@@ -33,6 +33,28 @@ This suite is designed to eliminate stuttering, reduce input latency, and improv
 
 ---
 
+## ⚡ Launch Options (Required)
+Add these arguments to force DirectX 12 and optimize memory allocation.
+
+**Arguments:**
+```
+-dx12 -USEALLAVAILABLECORES -high -nothreadtimeout -NoVerifyGC -malloc=system
+```
+**Steam:**
+Right-click *Sea of Thieves* > **Properties** > **General** > Paste into **Launch Options**.
+
+**Windows Store / Xbox App:**
+1.  Open Xbox App > Right-click *Sea of Thieves* > **Manage** > **Create Desktop Shortcut**.
+2.  Go to Desktop > Right-click the new shortcut > **Properties**.
+3.  Add the arguments to the very end of the **Target** field (ensure there is a space before the dash).
+4.  **Always launch via this shortcut.**
+
+**Battle.net:**
+Click the **Gear Icon** next to Play > **Game Settings** > Check **Additional command line arguments** > Paste the arguments.
+
+
+---
+
 ## 📥 Method 1: Automated Optimization (Recommended)
 The provided PowerShell script (`Optimize_SoT.ps1`) handles all file operations safely and automatically.
 
@@ -201,25 +223,6 @@ GameLanguage=1
 AudioOutputFormat=2
 ImmerseHeadsetId=0
 ```
-## ⚡ Launch Options (Required)
-Add these arguments to force DirectX 12 and optimize memory allocation.
-
-**Arguments:**
-```
--dx12 -USEALLAVAILABLECORES -high -nothreadtimeout -NoVerifyGC -malloc=system
-```
-**Steam:**
-Right-click *Sea of Thieves* > **Properties** > **General** > Paste into **Launch Options**.
-
-**Windows Store / Xbox App:**
-1.  Open Xbox App > Right-click *Sea of Thieves* > **Manage** > **Create Desktop Shortcut**.
-2.  Go to Desktop > Right-click the new shortcut > **Properties**.
-3.  Add the arguments to the very end of the **Target** field (ensure there is a space before the dash).
-4.  **Always launch via this shortcut.**
-
-**Battle.net:**
-Click the **Gear Icon** next to Play > **Game Settings** > Check **Additional command line arguments** > Paste the arguments.
-
 ## 🎮 In-Game Settings
 
 Recommended settings for competitive visibility and consistency.
