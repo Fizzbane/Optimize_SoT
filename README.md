@@ -221,7 +221,6 @@ Recommended settings for competitive visibility and consistency.
 ### Gameplay
 * **Disable Camera Sway on Ziplines:** On
 * **Server Authoritative Hit Markers:** On
-* **Disable Rats:** On
 
 ### Input (Sensitivity)
 * **Blunderbuss Aim:** 7.5
@@ -242,6 +241,7 @@ Recommended settings for competitive visibility and consistency.
 
 ### Graphics
 * **Field of View (FOV):** 110 (or highest possible)
+  
 * **Shadow Detail:** Cursed
 * **Model Detail:** Rare
 * **Texture Detail:** Rare
@@ -251,8 +251,10 @@ Recommended settings for competitive visibility and consistency.
 * **Particle Resolution:** Cursed
 * **Animation Quality:** Cursed
 * **Unique Mesh Buffer:** Mythical
+  
 * **Disable Blur:** On
 * **Disable Screen Shake:** On
+* **Disable Rats:** On
 
 ### Accessibility (Color)
 * **Color Blind Mode Filter:** Red-Green
